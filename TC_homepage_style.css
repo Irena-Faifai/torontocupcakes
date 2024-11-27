@@ -50,6 +50,58 @@
             padding: 0px;
         }
 
+/* Sidebar styling */
+        .sidebar {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* On top */
+            top: 0;
+            left: 0;
+            height: 100%; /* Full height */
+            width: 250px; /* Width of the sidebar */
+            background-color: #f2a0cd; /* Dark background */
+            padding-top: 20px; /* Padding at the top */
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow */
+        }
+
+        /* Sidebar links */
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+
+        /* Sidebar link hover effect */
+        .sidebar a:hover {
+            background-color: #f2ca7e;
+        }
+
+        /* Close button */
+        .sidebar .close-btn {
+            font-size: 20px;
+            color: white;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        /* Open button styling */
+        .open-btn {
+            font-size: 30px;
+            cursor: pointer;
+            background-color: #f2a0cd; /* Pink background */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+        }
+
+        /* Page content container */
+        .content {
+            margin-left: 0px;
+            padding: 0px;
+        }
+
 
 
 h1 {color:#F25CA2;
